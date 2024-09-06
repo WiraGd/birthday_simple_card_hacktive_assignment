@@ -8,5 +8,95 @@
 
 body{
     font-family: "SUSE", sans-serif;
-    background-color: rgb(200, 185, 166);
+    background-color: rgb(117, 21, 33);
+}
+
+.title-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.title-text h1{
+    font-size: 200px;
+    letter-spacing: -10px;
+    color: white;
+}
+
+.title-text p{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    background-color: pink;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+.title-text p span{
+    background-color: black;
+    color: orchid;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.birthday-box-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left-right-box{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.birthday-box-container .left-box{
+    position: relative;
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+
+.birthday-box-container .left-box .border{
+    margin-top: 35px;
+    border-bottom: 3px solid black;
+}
+
+.birthday-box-container .left-box h1{
+    margin-bottom: 15px;
+}
+
+.birthday-box-container .left-box h1 span{
+    background: black;
+    color: orchid;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.flower-img{
+    position: absolute;
+    width:250px;
+    top: 200px;
+    transform: scaleX(-1);
+    left: 130%
+}
+
+
+.birthday-box-container .right-box img{
+    width: 300px;
+    border-radius: 0 5px 5px 0;
 }
